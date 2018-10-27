@@ -1,5 +1,6 @@
-package com.nickolasfisher.java_stream_api_samples.introduction;
+package com.nickolasfisher.java_stream_api_samples.introduction_1;
 
+import com.nickolasfisher.java_stream_api_samples.TestUtils;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,15 +19,7 @@ public class IntroTests {
 
     @Before
     public void setupListOfNames() {
-        names = new ArrayList<>();
-
-        names.add("John");
-        names.add("Jacob");
-        names.add("Jerry");
-        names.add("Josephine");
-        names.add("Janine");
-        names.add("Alan");
-        names.add("Beverly");
+        names = TestUtils.getListOfNames();
     }
 
     @Test
