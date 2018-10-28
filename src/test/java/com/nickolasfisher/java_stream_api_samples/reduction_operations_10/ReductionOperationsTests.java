@@ -10,6 +10,9 @@ import java.util.Optional;
 
 import static junit.framework.TestCase.assertEquals;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-Reduction-Operations
+ */
 public class ReductionOperationsTests {
 
     List<SimplePair> pairs;

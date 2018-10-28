@@ -14,6 +14,9 @@ import java.util.stream.Stream;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-Concatenating-Sorting-and-FlatMapping
+ */
 public class ExamplesAndTests {
 
     List<String> names;

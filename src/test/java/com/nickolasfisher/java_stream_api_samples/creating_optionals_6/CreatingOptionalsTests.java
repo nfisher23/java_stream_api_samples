@@ -8,6 +8,9 @@ import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertFalse;
 import static junit.framework.TestCase.assertTrue;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-Creating-Optional-Types
+ */
 public class CreatingOptionalsTests {
 
     private Optional<Double> sqrt(Double num) {

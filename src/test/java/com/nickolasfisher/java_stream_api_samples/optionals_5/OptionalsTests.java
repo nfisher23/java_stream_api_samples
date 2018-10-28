@@ -12,6 +12,9 @@ import java.util.stream.Stream;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-How-to-Work-With-Optional-Types
+ */
 public class OptionalsTests {
 
     List<String> names;

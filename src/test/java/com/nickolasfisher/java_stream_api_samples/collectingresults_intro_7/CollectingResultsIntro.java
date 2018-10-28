@@ -11,6 +11,9 @@ import java.util.stream.Collectors;
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-An-Introduction-to-Collecting-Results
+ */
 public class CollectingResultsIntro {
 
     private List<String> names;

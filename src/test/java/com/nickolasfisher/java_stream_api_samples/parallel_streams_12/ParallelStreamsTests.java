@@ -16,6 +16,9 @@ import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 import static junit.framework.TestCase.fail;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-Parallel-Streams
+ */
 public class ParallelStreamsTests {
 
     List<String> names;

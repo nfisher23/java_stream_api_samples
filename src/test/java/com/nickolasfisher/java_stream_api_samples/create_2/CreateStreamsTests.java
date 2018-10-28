@@ -12,6 +12,9 @@ import java.util.stream.Stream;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-Creating-Custom-Lazy-Infinite-Streams
+ */
 public class CreateStreamsTests {
 
     List<String> names;

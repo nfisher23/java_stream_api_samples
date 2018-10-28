@@ -10,6 +10,9 @@ import java.util.stream.Collectors;
 
 import static junit.framework.TestCase.assertEquals;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-Collecting-Downstream-Elements
+ */
 public class CollectingDownstreamTests {
 
     private List<SimplePair> simplePairs;

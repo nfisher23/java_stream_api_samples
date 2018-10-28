@@ -12,6 +12,9 @@ import java.util.stream.Collectors;
 
 import static junit.framework.TestCase.assertEquals;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-Collecting-Into-Maps
+ */
 public class CollectingMapsTests {
 
     private List<SimplePair> simplePairs;

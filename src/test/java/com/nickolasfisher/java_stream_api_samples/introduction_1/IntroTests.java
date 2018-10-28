@@ -13,6 +13,9 @@ import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertFalse;
 import static junit.framework.TestCase.assertTrue;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-APIIntroduction-Filter-Map-and-Count
+ */
 public class IntroTests {
 
     private List<String> names;

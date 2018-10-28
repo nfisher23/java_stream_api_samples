@@ -16,6 +16,9 @@ import java.util.stream.Stream;
 
 import static junit.framework.TestCase.assertEquals;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-Primitive-Streams
+ */
 public class PrimitiveStreamsTests {
 
     List<SimplePair> pairs;

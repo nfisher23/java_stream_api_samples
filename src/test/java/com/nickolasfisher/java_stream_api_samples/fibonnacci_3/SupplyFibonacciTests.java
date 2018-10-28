@@ -8,6 +8,9 @@ import java.util.stream.Stream;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Corresponding tutorial at https://nickolasfisher.com/blog/The-Java-Stream-API-Generating-Fibonacci-Numbers
+ */
 public class SupplyFibonacciTests {
 
     @Test
