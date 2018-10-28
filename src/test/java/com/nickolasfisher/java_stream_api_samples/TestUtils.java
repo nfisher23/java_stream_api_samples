@@ -18,4 +18,17 @@ public final class TestUtils {
 
         return names;
     }
+
+    public static List<SimplePair> generateSimplePairs(int numToGenerate) {
+        List<SimplePair> pairs = new ArrayList<>();
+        for (int i = 1; i <= numToGenerate; i++) {
+            SimplePair pair = new SimplePair();
+
+            pair.setId(i);
+            pair.setName("pair" + i);
+
+            pairs.add(pair);
+        }
+        return pairs;
+    }
 }

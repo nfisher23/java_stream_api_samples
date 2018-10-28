@@ -45,24 +45,11 @@ public class CollectingResultsIntro {
     private List<SimplePair> simplePairs;
 
     @Before
-    public void setupSimplePairs() { simplePairs = generatePairs(5); }
-
-    private List<SimplePair> generatePairs(int numToGenerate) {
-        List<SimplePair> pairs = new ArrayList<>();
-        for (int i = 1; i <= numToGenerate; i++) {
-            SimplePair pair = new SimplePair();
-
-            pair.setId(i);
-            pair.setName("pair" + i);
-
-            pairs.add(pair);
-        }
-        return pairs;
-    }
+    public void setupSimplePairs() { simplePairs = TestUtils.generateSimplePairs(5); }
 
     @Test
     public void collect_mapToString() {
-        List<SimplePair> twoPairs = generatePairs(2);
+        List<SimplePair> twoPairs = TestUtils.generateSimplePairs(2);
 
         String semiColonDelimited = twoPairs.stream().map(Objects::toString).collect(Collectors.joining(";"));
 

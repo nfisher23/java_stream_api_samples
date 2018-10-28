@@ -68,5 +68,5 @@ public class CreatingOptionalsTests {
         assertFalse(emptySqrt.isPresent());
         assertFalse(doesntBlowUp.isPresent());
     }
-    
+
 }
